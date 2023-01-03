@@ -1,0 +1,16 @@
+{
+  "name": "openai-node-stream",
+  "version": "1.0.0",
+  "description": "Streaming example with openai-node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortaine/openai": "^4.0.0",
+    "dotenv-flow": "3.2.0"
+  }
+}
