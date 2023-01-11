@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@fortaine/openai": "^4.0.0",
-    "dotenv-flow": "3.2.0"
+    "dotenv-flow": "3.2.0",
+    "inquirer": "^9.1.4"
   }
 }
