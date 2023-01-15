@@ -1,9 +1,8 @@
-import { parseArgs } from "node:util";
+import dotenv from "dotenv-flow";
+import inquirer from "inquirer";
 import process from "node:process";
 import { fileURLToPath } from "node:url";
-
-import inquirer from "inquirer";
-import dotenv from "dotenv-flow";
+import { parseArgs } from "node:util";
 
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
 
@@ -24,6 +23,12 @@ const {
     },
   },
 });
+
+if (typeof model === "undefined") {
+  throw new TypeError(
+    "[ERR_PARSE_ARGS_INVALID_OPTION_VALUE]: Option '--model <value>' argument missing"
+  );
+}
 
 const questions = [
   {
