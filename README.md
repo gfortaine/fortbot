@@ -1,4 +1,4 @@
-# README
+# Fortbot
 
 ## Table of Contents
 
@@ -14,5 +14,5 @@ npm install
 ## Usage
 
 ```sh
-node index --prompt <value>
+node index --model <value>
 ```

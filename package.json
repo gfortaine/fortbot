@@ -1,7 +1,7 @@
 {
-  "name": "openai-node-stream",
+  "name": "fortbot",
   "version": "1.0.0",
-  "description": "Streaming example with openai-node",
+  "description": "A simple helpful chatbot for your Company",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@fortaine/openai": "^4.0.0",
+    "@fortaine/openai": "^5.0.1",
     "dotenv-flow": "3.2.0",
     "inquirer": "^9.1.4"
   }
